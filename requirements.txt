@@ -1,0 +1,6 @@
+torch
+transformers
+accelerate
+scipy
+numpy
+pillow

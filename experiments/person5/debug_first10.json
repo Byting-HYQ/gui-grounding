@@ -1,0 +1,192 @@
+[
+  {
+    "instruction": "create a new project",
+    "predicted": [
+      875,
+      100
+    ],
+    "pixel_coord": [
+      2240,
+      144
+    ],
+    "gt_bbox": [
+      2321,
+      129,
+      208,
+      70
+    ],
+    "correct": false,
+    "raw_output": "system\nYou are a helpful assistant.\nuser\n请根据指令定位需要点击的元素。指令：create a new project。只输出 JSON 格式：{\"action\":\"click\",\"x\":整数,\"y\":整数}。坐标范围 [0,1000]。不要输出其他内容。\nassistant\n{\"action\":\"click\",\"x\":875,\"y\":100}"
+  },
+  {
+    "instruction": "view my account",
+    "predicted": [
+      950,
+      30
+    ],
+    "pixel_coord": [
+      2432,
+      43
+    ],
+    "gt_bbox": [
+      2401,
+      14,
+      111,
+      68
+    ],
+    "correct": true,
+    "raw_output": "system\nYou are a helpful assistant.\nuser\n请根据指令定位需要点击的元素。指令：view my account。只输出 JSON 格式：{\"action\":\"click\",\"x\":整数,\"y\":整数}。坐标范围 [0,1000]。不要输出其他内容。\nassistant\n{\"action\":\"click\",\"x\":950,\"y\":30}"
+  },
+  {
+    "instruction": "search in gitlab",
+    "predicted": [
+      100,
+      30
+    ],
+    "pixel_coord": [
+      256,
+      43
+    ],
+    "gt_bbox": [
+      194,
+      15,
+      645,
+      66
+    ],
+    "correct": true,
+    "raw_output": "system\nYou are a helpful assistant.\nuser\n请根据指令定位需要点击的元素。指令：search in gitlab。只输出 JSON 格式：{\"action\":\"click\",\"x\":整数,\"y\":整数}。坐标范围 [0,1000]。不要输出其他内容。\nassistant\n{\"action\":\"click\",\"x\":100,\"y\":30}"
+  },
+  {
+    "instruction": "add a new one",
+    "predicted": [
+      100,
+      100
+    ],
+    "pixel_coord": [
+      256,
+      144
+    ],
+    "gt_bbox": [
+      1753,
+      8,
+      112,
+      77
+    ],
+    "correct": false,
+    "raw_output": "system\nYou are a helpful assistant.\nuser\n请根据指令定位需要点击的元素。指令：add a new one。只输出 JSON 格式：{\"action\":\"click\",\"x\":整数,\"y\":整数}。坐标范围 [0,1000]。不要输出其他内容。\nassistant\n{\"action\":\"click\",\"x\":100,\"y\":100}"
+  },
+  {
+    "instruction": "go to personal homepage",
+    "predicted": [
+      938,
+      35
+    ],
+    "pixel_coord": [
+      2401,
+      50
+    ],
+    "gt_bbox": [
+      2044,
+      96,
+      481,
+      187
+    ],
+    "correct": false,
+    "raw_output": "system\nYou are a helpful assistant.\nuser\n请根据指令定位需要点击的元素。指令：go to personal homepage。只输出 JSON 格式：{\"action\":\"click\",\"x\":整数,\"y\":整数}。坐标范围 [0,1000]。不要输出其他内容。\nassistant\n{\"action\":\"click\",\"x\":938,\"y\":35}"
+  },
+  {
+    "instruction": "sign out",
+    "predicted": [
+      958,
+      360
+    ],
+    "pixel_coord": [
+      2452,
+      518
+    ],
+    "gt_bbox": [
+      2043,
+      492,
+      483,
+      89
+    ],
+    "correct": true,
+    "raw_output": "system\nYou are a helpful assistant.\nuser\n请根据指令定位需要点击的元素。指令：sign out。只输出 JSON 格式：{\"action\":\"click\",\"x\":整数,\"y\":整数}。坐标范围 [0,1000]。不要输出其他内容。\nassistant\n{\"action\":\"click\",\"x\":958,\"y\":360}"
+  },
+  {
+    "instruction": "switch to explore projects",
+    "predicted": [
+      100,
+      180
+    ],
+    "pixel_coord": [
+      256,
+      259
+    ],
+    "gt_bbox": [
+      427,
+      234,
+      150,
+      96
+    ],
+    "correct": false,
+    "raw_output": "system\nYou are a helpful assistant.\nuser\n请根据指令定位需要点击的元素。指令：switch to explore projects。只输出 JSON 格式：{\"action\":\"click\",\"x\":整数,\"y\":整数}。坐标范围 [0,1000]。不要输出其他内容。\nassistant\n{\"action\":\"click\",\"x\":100,\"y\":180}"
+  },
+  {
+    "instruction": "star the project with 56 stars",
+    "predicted": [
+      100,
+      150
+    ],
+    "pixel_coord": [
+      256,
+      216
+    ],
+    "gt_bbox": [
+      1601,
+      350,
+      116,
+      66
+    ],
+    "correct": false,
+    "raw_output": "system\nYou are a helpful assistant.\nuser\n请根据指令定位需要点击的元素。指令：star the project with 56 stars。只输出 JSON 格式：{\"action\":\"click\",\"x\":整数,\"y\":整数}。坐标范围 [0,1000]。不要输出其他内容。\nassistant\n```json\n{\"action\":\"click\",\"x\":1"
+  },
+  {
+    "instruction": "fork the a11y project",
+    "predicted": [
+      100,
+      500
+    ],
+    "pixel_coord": [
+      256,
+      720
+    ],
+    "gt_bbox": [
+      1704,
+      678,
+      83,
+      59
+    ],
+    "correct": false,
+    "raw_output": "system\nYou are a helpful assistant.\nuser\n请根据指令定位需要点击的元素。指令：fork the a11y project。只输出 JSON 格式：{\"action\":\"click\",\"x\":整数,\"y\":整数}。坐标范围 [0,1000]。不要输出其他内容。\nassistant\n{\"action\":\"click\",\"x\":100,\"y\":500}"
+  },
+  {
+    "instruction": "view issues i've created",
+    "predicted": [
+      135,
+      185
+    ],
+    "pixel_coord": [
+      345,
+      266
+    ],
+    "gt_bbox": [
+      197,
+      232,
+      1279,
+      68
+    ],
+    "correct": true,
+    "raw_output": "system\nYou are a helpful assistant.\nuser\n请根据指令定位需要点击的元素。指令：view issues i've created。只输出 JSON 格式：{\"action\":\"click\",\"x\":整数,\"y\":整数}。坐标范围 [0,1000]。不要输出其他内容。\nassistant\n{\"action\":\"click\",\"x\":135,\"y\":185}"
+  }
+]
