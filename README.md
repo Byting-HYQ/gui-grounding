@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GUI Grounding - Person5: 一致性与自纠错
 
 ## 📋 项目概述
@@ -44,3 +45,6 @@
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 pip install transformers accelerate scipy pillow gradio
+=======
+# gui-grounding
+>>>>>>> ec9f52e51758293af79e55608c6c16379c3912dc
